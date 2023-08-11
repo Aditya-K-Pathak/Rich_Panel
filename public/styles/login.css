@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #1f4e91;
+    height:100%;
+    width:100%;
+}
+.body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #1f4e91;
+
+}
+.login-container{
+    margin:auto;
+    vertical-align: middle;
+    padding-top: 20px;
+    width: 600px;
+    height: 500px;
+    background-color: white;
+    border-radius: 5%;
+}
+h3{
+    text-align: center;
+    margin-top: 50px;
+}
+p{
+    font-size: 12px;
+    text-align: center;
+    margin: 50px;
+}
+.login-container #login-form{
+    text-align: left;
+    margin-left: 25%;
+    margin-top: 15px;
+}
+.login-container #login-form .para{
+    margin-top: 50px;
+}
+.login-container #login-form #name, #username, #password{
+    margin-top: auto;
+    border: solid gray 2px;
+    border-radius: 5px;
+    height: 40px;
+    width:75%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.login-container #login-form #submit{
+    background-color: #1f4e91;
+    width: 75%;
+    height:50px;
+    color: white;
+    border: solid none;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    .login-container #login-form{
+        text-align: left;
+        margin-left: 20%;
+        margin-top: 15px;
+    }
+    .login-container #login-form .para{
+        margin-top: 50px;
+    }
+    .login-container #login-form #name, #username, #password{
+        margin-top: auto;
+        border: solid gray 2px;
+        border-radius: 5px;
+        height: 40px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .login-container #login-form #submit{
+        background-color: #1f4e91;
+        width: 75%;
+        height:50px;
+        color: white;
+        border: solid none;
+        border-radius: 5px;
+    }
+  }
+@media only screen and (max-width: 500px) {
+    body {
+      background-color: lightblue;
+    }
+    .login-container #login-form{
+        text-align: left;
+        margin-left: 15%;
+        margin-top: 15px;
+    }
+    .login-container #login-form .para{
+        margin-top: 50px;
+    }
+    .login-container #login-form #username, #password{
+        margin-top: auto;
+        border: solid gray 2px;
+        border-radius: 5px;
+        height: 40px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .login-container #login-form #submit{
+        background-color: #1f4e91;
+        width: 75%;
+        height:50px;
+        color: white;
+        border: solid none;
+        border-radius: 5px;
+    }
+  }

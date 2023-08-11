@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #1f4e91;
+    height:100%;
+    width:100%;
+}
+.body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #1f4e91;
+
+}
+.login-container{
+    margin:auto;
+    vertical-align: middle;
+    width: 600px;
+    height: 300px;
+    background-color: white;
+    border-radius: 1%;
+}
+.left-container{
+    /* background-color: antiquewhite; */
+    padding-top: 25px;
+    float: left;
+    text-align: left;
+    border-left: 40px solid white;
+    border-radius: 1%;
+    width: 60%;
+    height:80%;
+}
+#input_box{
+    border:solid grey 1px;
+    width:70%;
+    height:30px;
+    margin-top: 30px;
+    margin-left: 0px;
+    border-radius: 5px;
+}
+#cardnumber{
+    background-color: transparent;
+    border:none;
+    height:30px;
+    width: 200px;
+}
+#mmyy{
+    background-color: transparent;
+    border:none;
+    height:30px;
+}
+#cvc{
+    background-color: transparent;
+    border:none;
+    height:30px;
+    width:50px;
+}
+input[type=number], input[type=text]:focus{
+    background-color: white;
+    border: transparent;
+    outline:none;
+}
+.login-container .left-container .submit{
+    background-color: #1f4e91;
+    margin-top: 10%;
+    width: 40%;
+    height:40px;
+    color: white;
+    border: solid #1f4e91 2px;
+    border-radius: 5px;
+}
+.right-container{
+    border-right: #f5f4f7 solid 40px;
+    background-color: #f5f4f7;
+    border-radius: 1%;
+    padding-left: 20px;
+    float:right;
+    width:40%;
+    height:80%;
+}
+h2{
+    padding-bottom: 20px;
+}
+p{
+    padding: 5px;
+    padding-bottom: 0px;
+}
+.change_plan{
+    background-color: white;
+    color:#1f4e91;
+    border-color: #1f4e91;
+    width:40%;
+    height:40px;
+    border-radius: 5px;
+}
+.cancel{
+    background-color: white;
+    float:right;
+    padding-top: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    color:#1f4e91;
+    border: none;
+    width:40%;
+    height:40px;
+    border-radius: 5px;
+}
+.change_plan:hover{
+    background-color: #1f4e91;
+    color:white;
+}
+.footer{
+    border:white solid 8px;
+    border-radius: 10px;
+    width:165%;
+    background-color: #f6f6f7;
+    padding: 10px;
+    text-align: center;
+}
+.active{
+    background-color: #c9dffc;
+    color:#1f4e91;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: normal;
+    border-radius: 5px;
+    height:10px;
+    border:solid 3px #c9dffc;
+}
+.header{
+    width:280px;
+    float:left;
+}
+/* .change{
+    background-color: blue;
+} */

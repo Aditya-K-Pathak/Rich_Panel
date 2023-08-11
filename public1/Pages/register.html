@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="../styles/login.css">
+</head>
+
+<body>
+    <div class="body">
+        <div class="login-container">
+            <h3>Login to your Account</h3>
+            <form id="login-form">
+                <label for="name" class="para">Name</label><br>
+                <input type="text" id="name" name="name" placeholder="Johhn Doe"><br>
+                <br>
+                <label for="username" class="para">Email</label><br>
+                <input type="text" id="username" name="username" placeholder="username@email.com"><br>
+                <br>
+                <label for="password" class = "para">Password:</label><br>
+                <input type="password" id="password" name="password" placeholder="123bac!@#" required><br>
+                <br>
+                <input type = "checkbox" id = "remember"><label for="">Remember Me</label><br>
+                <br>
+                <button type="submit" id = "submit">Login</button>
+            </form>
+            <p style="margin-top: 20px;">New to MyApp? <a href="register.html" style="text-decoration: none;">Sign Up</a></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

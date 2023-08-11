@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirm Payment</title>
+    <link rel="stylesheet" href="/../styles/payment.css">
+</head>
+<body>
+    <div class="body">
+        <div class="login-container" style="width: 900px;">
+            <div class="left-container" style="width: 60%;">
+                <h1>Complete payment</h1>
+                <small>Enter your Credit Card or Debit card details</small>
+                <div id="input_box">
+                    <image src="/../resources/card.png" style="height:20px; border-left: 10px solid white; border-top: 7px solid white; margin-top:3px;">
+                    </image>
+                    <input type="number" id="cardnumber" placeholder="Card Number"></input>
+                    <input type="text" id="mmyy" placeholder="MM/YY" size="3"></input>
+                    <input type="number" id="cvc" placeholder="CVC"></input>
+                </div>
+                <input type="submit" class="submit" value="Confirm Payment" onclick="pay()">
+            </div>
+            <div class="right-container" style="height:100%"><br><br>
+                <h2>Order Summary</h2>
+                <div class="attributes" style="width:50%;float:left;">
+                    <p>Plan Name</p><br><hr>
+                    <p>Billing Cycle</p><br><hr>
+                    <p>Plan Pricing</p><br><hr>
+                </div>
+                <div class="properties" style="width:50%;float:right;text-align:right;">
+                    <p class="plandesc">Plan Name</p><br><hr>
+                    <p class="plandesc">Billing Cycle</p><br><hr>
+                    <p class="plandesc">Plan Pricing</p><br><hr>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/../script/Payment_Script.js">
+    </script>
+</body>
+</html>

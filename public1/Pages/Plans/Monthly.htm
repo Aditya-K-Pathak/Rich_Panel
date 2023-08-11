@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription</title>
+    <link rel="stylesheet" href="../../styles/payscale.css">
+</head>
+
+<body>
+    <div class="body">
+        <div class="container">
+            <h1 class="hi">Choose the right plan for you</h1><br><br>
+            <div class="attributes">
+                <div class="button-holder">
+                    <button type="submit" class="button-monthly" onclick="move_to_monthly()">Monthly</button>
+                    <button type="submit" class="button-yearly" onclick="move_to_yearly()">Yearly</button><br><br><br>
+                </div>
+                <br>
+                <p>Monthly Price</p><hr>
+                <p>Video Quality</p><hr>
+                <p>Resolution</p><hr>
+                <p>Device you can use to watch</p>
+            </div>
+            <div class="plan1">
+                <div class="header" onclick="plan(0)">Mobile</div><br>
+                <p class="price">₹ 100</p><hr>
+                <p>Good</p><hr>
+                <p>480p</p><hr>
+                <p>Phone</p><p>Tablet</p>
+            </div>
+            <div class="plan2">
+                <div class="header" onclick="plan(1)">Basic</div><br>
+                <p class="price">₹ 200</p><hr>
+                <p>Good</p><hr>
+                <p>480p</p><hr>
+                <p>Phone</p><p>Tablet</p>
+                <p>Computer</p><p>TV</p>
+            </div>
+            <div class="plan3">
+                <div class="header" onclick="plan(2)">Standard</div><br>
+                <p class="price">₹ 500</p><hr>
+                <p>Better</p><hr>
+                <p>1080p</p><hr>
+                <p>Phone</p><p>Tablet</p>
+                <p>Computer</p><p>TV</p>
+            </div>
+            <div class="plan4">
+                <div class="header" onclick="plan(3)">Premium</div><br>
+                <p class="price">₹ 700</p><hr>
+                <p>Best</p><hr>
+                <p>4K+ HDR</p><hr>
+                <p>Phone</p><p>Tablet</p>
+                <p>Computer</p><p>TV</p>
+            </div>
+            <button type="submit" class="submit">Next</button>
+        </div>
+    </div>
+    <script src="../../script/Monthly.js"></script>
+</body>
+</html>

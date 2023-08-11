@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">Payment Cancelled!</title>
+    <link rel="stylesheet" href="/../styles/payment.css">
+</head>
+
+<body>
+    <div class="body">
+        <div class="login-container">
+            <div class="left-container">
+                <div class="header">
+                    <h2>Current Plan Detail <small class="active" style="color:#e25e59;background-color: #fbf0f0;font-size: 16px;border:solid #fbf0f0 3px;font-weight: none;">Cancelled</small></h2>
+                </div>
+                <div style="width:100%">
+                    <p id="plan_name"></p>
+                    <p id="plan_device" style="color:grey"></p>
+                    <h2 id="plan_price" style="padding-top: 20px;"></h2>
+                    <input type="submit" onclick="changeplan()" class="change_plan" value="Change Plan">
+                </div>
+
+                <div class="footer">Your subscription has started on Jul 11th, 2022 and will auto renew on Jul 12th, 2023.</div>
+            </div>
+            <div class="right-container" style="background-color:transparent;border-right:solid white 40px;">
+                <input type="submit" onclick="cancel()" class="cancel" value="Cancel">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/../script/success.js">
+        document.getElementsByClassName("active")[0].innerHTML="Cancelled";
+        document.getElementsByClassName("active")[0].style.color="#e25e59";
+        document.getElementsByClassName("active")[0].style.backgroundColor="#fbf0f0";
+        document.getElementsByClassName("active")[0].style.fontSize="16px";
+        document.getElementsByClassName("active")[0].style.fontweight="none";
+        document.getElementsByClassName("active")[0].style.border="solid 3px #fbf0f0";
+    </script>
+</body>
+
+</html>
